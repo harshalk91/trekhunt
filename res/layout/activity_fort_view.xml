@@ -1,0 +1,188 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+    
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <EditText
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/aboutTitle"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Fort Range : Lonavla"  android:textColor="#A52A2A" />
+    
+    <EditText
+        android:id="@+id/Fort_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/about"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Grade : Easy"
+        android:textColor="#0000FF" />
+    
+    <EditText
+        android:id="@+id/historyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Fort_range"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="#0000FF"
+        android:text="Fort Range : Lonavla" />
+    
+    <EditText
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/historyTitle"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Grade : Easy
+
+Spots : The fort houses many old constructions and much of its fortification is very intact. 
+1) Vinchu Kata:-  Here we can see some cannons. The bastion on the end of this machi is like the Armour of the fort.
+2)Narayan and Hanuman Darwaaja 
+3)old Dargah
+4)Laxmi Kothi
+5)Temple of Lord Shiva
+6)Drinking water reservoirs
+7)Lake"
+        android:textColor="#0000ff" />
+    
+    <EditText
+        android:id="@+id/trustTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/history"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Way to Reach : 
+1)From Malawali:We have to get down at Malavali station near to Lonavala. After crossing the
+Express-Highway &amp; reaching Bhaje village we get straight route to Lohgad. After walking for 1.5 to 2 hours  &amp; turning to right from `Gaimukh Khind` we will reach to Lohgad. Turning to left we reach to Visapur.
+At the base of the fort we have a village called Lohgaon. We can reach to the top of fort by stairs. 
+. We will come across four doors while reaching the top. The first one is called &apos;Ganesh Darwaaja&apos;, second one is called &apos;Narayan Darwaaja&apos;, third one is called &apos;Hanuman Darwaaja&apos; &amp; fourth one is called &apos;Maha Darwaaja&apos;. Out of this Hanuman Darwaaja is the most ancient of all the doors.
+While returning from Lohgad one should reach Malavali station. From there we can get a local train for Lonavala, from there we can go to Mumbai or Pune.
+
+2)From Lonavala : Jeeps are available from Lonavala, which take us to the backside of Lohgad. The road here is worst, and one has to walk for about 3 km. We can have a glimpse of Vinchu Kata from here, and extensive ramparts of the fort. The forts Tung and Tikona are seen very near from here.  
+        "
+        android:textColor="#0000FF" />
+    
+    <EditText
+        android:id="@+id/trust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/trustTitle"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Accomodation : In Laxmi-Kothi 50 peoples can be accomodated."
+         android:textColor="#A52A2A" />
+    
+    <EditText
+        android:id="@+id/trust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/trustTitle"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Food Facility : 
+Food is Available on Lohgaon. We can Also carry our own food."
+        android:textColor="#0000FF" />
+
+     <EditText
+         android:id="@+id/aboutTitle"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/title"
+         android:clickable="false"
+         android:focusable="false"
+         android:focusableInTouchMode="false"
+         android:text="Height : 3400ft"
+         android:textColor="#0000FF" />
+
+     <EditText
+         android:id="@+id/EditText01"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignTop="@+id/about"
+         android:clickable="false"
+         android:focusable="false"
+         android:focusableInTouchMode="false"
+         android:text="Type : Hill Fort"
+         android:textColor="#0000FF" />
+
+     <EditText
+         android:id="@+id/drinking"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/trust"
+         android:clickable="false"
+         android:focusable="false"
+         android:focusableInTouchMode="false"
+         android:text="Drinking Water: Drinking Water is Present"
+         android:textColor="#0000FF" >
+
+         <requestFocus />
+     </EditText>
+
+      <TextView
+          android:id="@+id/title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:clickable="false"
+          android:focusable="false"
+          android:gravity="center"
+          android:text="Lohgad"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textColor="#FFFFFF"
+          android:textSize="40dp" />
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_below="@+id/drinking"
+          android:clickable="false"
+          android:text="Images" />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/button1"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:text="Map" />
+     
+    </RelativeLayout>
+    
+    </ScrollView>

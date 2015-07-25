@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" >
+  
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+        
+	        <TextView
+	            android:id="@+id/textFortName"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dip"
+	            android:layout_weight="1"
+	            android:gravity="center_horizontal"
+	            android:text="Medium Text"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#FFD700"
+	            android:textSize="35sp"
+	            android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <Button
+	            android:id="@+id/buttonImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="19dp"
+	            android:layout_weight="1"
+	            android:onClick="onClickImages"
+	            android:text="@string/label_images" />
+
+	        <Button
+	            android:id="@+id/buttonMap"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:onClick="onClickMap"
+	            android:text="@string/label_map" />
+	    </LinearLayout>
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="0dip"
+	        android:layout_weight="1"
+	        android:gravity="center_horizontal"
+	        android:text="Height"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFD700"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textHeight"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+	    
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="0dip"
+	        android:layout_weight="1"
+	        android:gravity="center_horizontal"
+	        android:text="Type of Fort"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFD700"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textType"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:gravity="center_horizontal"
+		    android:text="Fort Range"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#FFD700"
+		    android:textSize="20sp"
+		    android:textStyle="bold" />
+	    	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textRange"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    android:gravity="center_horizontal"
+		    android:text="Grade"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#FFD700"
+		    android:textSize="20sp"
+		    android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textGrade"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="0dip"
+			    android:layout_weight="1"
+			    android:gravity="center_horizontal"
+			    android:text="Fascinating Spots"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="#FFD700"
+			    android:textSize="20sp"
+			    android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textSpots"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dip"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:lineSpacingMultiplier="1.5"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp"
+	             
+	             />
+	    </LinearLayout>
+
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="0dip"
+			    android:layout_weight="1"
+			    android:gravity="center_horizontal"
+			    android:text="Ways to Reach"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="#FFD700"
+			    android:textSize="20sp"
+			    android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textWayToReach"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:lineSpacingMultiplier="1.5"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="0dip"
+			    android:layout_weight="1"
+			    android:gravity="center_horizontal"
+			    android:text="Accomodation"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="#FFD700"
+			    android:textSize="20sp"
+			    android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textAccomodation"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:lineSpacingMultiplier="1.5"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="0dip"
+			    android:layout_weight="1"
+			    android:gravity="center_horizontal"
+			    android:text="Food Facility on Fort"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="#FFD700"
+			    android:textSize="20sp"
+			    android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textFood"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:lineSpacingMultiplier="1.5"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="0dip"
+			    android:layout_weight="1"
+			    android:gravity="center_horizontal"
+			    android:text="Drinking water Facility"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="#FFD700"
+			    android:textSize="20sp"
+			    android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textWater"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:lineSpacingMultiplier="1.5"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="0dip"
+			    android:layout_weight="1"
+			    android:gravity="center_horizontal"
+			    android:text="Time To Reach"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="#FFD700"
+			    android:textSize="20sp"
+			    android:textStyle="bold" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <EditText
+	            android:id="@+id/textTimeToReach"
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:clickable="false"
+	            android:ems="10"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false"
+	            android:inputType="none"
+	            android:lineSpacingMultiplier="1.5"
+	            android:singleLine="false"
+	            android:textColor="#0000FF"
+	            android:textSize="20sp" />
+	    </LinearLayout>
+	  
+	
+	</LinearLayout>
+    </ScrollView>
+

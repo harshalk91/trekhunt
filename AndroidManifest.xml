@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstdatabaseexample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+</uses-permission>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />   
+<uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Trek Hunt"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.firstdatabaseexample.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.CreateDBActivity"
+            android:label="CreateDB"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.Welcome"
+            android:label="Trek Hunt"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+        <activity
+            android:name="com.example.firstdatabaseexample.WebConnectActivity"
+            android:label="Help" >
+        </activity>
+        -->
+        <activity
+            android:name="com.example.firstdatabaseexample.Information"
+            android:label="About us.."
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.EmergencyContact"
+            android:screenOrientation="portrait"
+            android:label="Emergency Contact Numbers" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.TestDatabaseActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.FortListActivity"
+            android:label="Fort List"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.FortViewActivity"
+            android:label="@string/title_activity_fort_view"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.MainActivity"
+            android:label="Photos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.ProgBar"
+            android:label="@string/title_activity_progress_bar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.GridViewExampleActivity"
+            android:label="Help Portal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.firstdatabaseexample.EmergencyCallActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_emergency_call" >
+        </activity>
+    </application>
+
+</manifest>

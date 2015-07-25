@@ -1,0 +1,142 @@
+<ScrollView
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp" 
+    android:background="#FFFAFA">
+ 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Feedback Form"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#9400D3"
+        android:textSize="40sp" />
+ 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Enter Full Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0099FF"
+        android:textSize="25sp" />
+ 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:background="#CCCCCC"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:textColorLink="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" >
+ 
+        <requestFocus />
+    </EditText>
+ 
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:inputType="phone"
+        android:background="#CCCCCC"
+        android:ems="10"
+        android:textSize="25sp"
+        android:textStyle="bold" >
+ 
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:background="#CCCCCC"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:background="#CCCCCC"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Enter Brief Feedback "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0099FF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Contact Number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0099FF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#0099FF"
+        android:text="send"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Email id"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0099FF"
+        android:textSize="25sp" />
+ 
+</RelativeLayout>
+</ScrollView>
